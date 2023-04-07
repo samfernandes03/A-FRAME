@@ -1,0 +1,11 @@
+Model Information:
+* title:	Egyptian Cat
+* source:	https://sketchfab.com/3d-models/egyptian-cat-5be8fb3b1fbf4c70945c5331dbdc18dc
+* author:	Mathias (https://sketchfab.com/lauwersmathias)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Egyptian Cat" (https://sketchfab.com/3d-models/egyptian-cat-5be8fb3b1fbf4c70945c5331dbdc18dc) by Mathias (https://sketchfab.com/lauwersmathias) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ancient Egypt Chamber</title>
+    <script src="https://aframe.io/releases/1.4.0/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <!-- Load the 3D model of the Egyptian cat -->
+      <a-asset-item id="egypt-cat" src="./egyptian_cat/scene.gltf"></a-asset-item>
+      <a-asset-item id="cat-texture" src="./egyptian_cat/textures/Material0_baseColor.jpeg"></a-asset-item>
+
+      <!-- Create an entity that will display the 3D model -->
+      <a-entity gltf-model="#egypt-cat" scale="8 8 8" position="0 0 -14">
+        <a-material src="#cat-texture"></a-material>
+      </a-entity>
+
+      <!-- Load the 3D model of the Scarab Beetle -->
+      <a-asset-item id="scarab-beetle" src="./scarab_beetle/scene.gltf"></a-asset-item>
+      <a-asset-item id="beetle-texture" src="./scarab_beetle/textures/Texture_0_baseColor.jpeg"></a-asset-item>
+
+      <!-- Create an entity that will display the 3D model -->
+      <a-entity gltf-model="#scarab-beetle" scale="0.25 0.25 0.25" position="-8 0 -14" rotation="0 180 0">
+        <a-material src="#beetle-texture"></a-material>
+      </a-entity>
+
+      <!-- Background sound -->
+      <a-sound src="./ancient_egypt_sound.mp3" autoplay="true" loop="true" maxDistance="50" distanceModel="linear"></a-sound>
+
+      <!-- Background color -->
+      <a-sky color="#8FB7DB"></a-sky>
+
+      <!-- Ground plane -->
+      <a-plane position="0 0 0" rotation="-90 0 0" width="50" height="50" color="#7C5A3F"></a-plane>
+
+      <!-- Chamber walls -->
+      <a-box position="0 3 -15" width="30" height="6" depth="1" color="#C2B280" src="heiroglyph_walls.jpg"></a-box>
+      <a-box position="0 3 15" width="30" height="6" depth="1" color="#C2B280" src="heiroglyph_walls.jpg"></a-box>
+      <a-box position="-15 3 0" width="1" height="6" depth="30" color="#C2B280" src="heiroglyph_walls.jpg"></a-box>
+      <a-box position="15 3 0" width="1" height="6" depth="30" color="#C2B280" src="heiroglyph_walls.jpg"></a-box>
+
+      <!-- Pillars -->
+      <a-cylinder position="-13.5 0 -14" radius="1" height="11.5" color="#C2B280" src="hieroglyph.jpg"></a-cylinder>
+      <a-cylinder position="13.5 0 -14" radius="1" height="11.5" color="#C2B280" src="hieroglyph.jpg"></a-cylinder>
+      <a-cylinder position="-13.5 0 14" radius="1" height="11.5" color="#C2B280" src="hieroglyph.jpg"></a-cylinder>
+      <a-cylinder position="13.5 0 14" radius="1" height="11.5" color="#C2B280" src="hieroglyph.jpg"></a-cylinder>
+
+      <!-- Ceiling -->
+      <a-box position="0 6 0" width="30" height="1" depth="30" color="#C2B280"></a-box>
+
+      <!-- Lighting -->
+      <a-light type="point" position="0 5 0" color="#FFFFFF" distance="50"></a-light>
+      <a-light type="point" position="0 5 0" color="#FFFFFF" distance="50"></a-light>
+
+    </a-scene>
+  </body>
+</html>

@@ -1,0 +1,11 @@
+Model Information:
+* title:	Granite Statue of Horus
+* source:	https://sketchfab.com/3d-models/granite-statue-of-horus-3944438111b24e7e92c1ae328a37b05e
+* author:	danderson4 (https://sketchfab.com/danderson4)
+
+Model License:
+* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+* requirements:	Author must be credited. No commercial use.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Granite Statue of Horus" (https://sketchfab.com/3d-models/granite-statue-of-horus-3944438111b24e7e92c1ae328a37b05e) by danderson4 (https://sketchfab.com/danderson4) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
